@@ -3,13 +3,14 @@ This is a test ,The coding here is a example. "This Readme.md was generated with
 markdown
 # Simple Encryption and Decryption in C
 This repository contains a collection of simple C programs for password encoding and decoding using various encryption methods. The implemented encryption techniques include:
+
 - Atbash Cipher: A substitution cipher where each letter in the plaintext is replaced with its corresponding letter from the end of the alphabet.
 - Caesar Cipher: A substitution cipher that shifts the letters of the plaintext by a certain number of positions down the alphabet.
 - A1Z26 Cipher: A substitution cipher where each letter in the plaintext is replaced with its corresponding position in the alphabet.
 - Vigenère Cipher: A polyalphabetic substitution cipher that uses a series of different Caesar ciphers based on the letters of a keyword.
+- Morse Code: A method of encoding text as a series of dots and dashes, where each letter and number has a unique sequence of dots and dashes.
 
 Each encryption method is implemented as a separate C program within this repository. The programs are written in C and are compatible with the CodeBlocks compiler.
-
 ## Usage
 1. Clone the repository to your local machine.
 2. Navigate to the desired encryption method's directory.
